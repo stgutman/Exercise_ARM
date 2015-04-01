@@ -16,7 +16,7 @@ int main ()
 	int number_of_ones=0;
 	int size_of_stream_in_bits=5;
 	int offset = 2;
-	char bits[24] = "100111101110100001001110"; /*waste of 7/8 memory but easy programm*/
+	char bits[24] = "100111101110100001001110"; /*waste of 7/8 memory but easy program*/
 	number_of_ones = count_ones(bits+offset, size_of_stream_in_bits);
 	printf("Number of ones = %d\n", number_of_ones);
 	return 0;
